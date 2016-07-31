@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/habit_list_item">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/habit_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/habit_image_dec"/>
+    <TextView
+        android:id="@+id/habit_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:layout_centerVertical="true"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_toEndOf="@+id/habit_image" />
+
+
+</RelativeLayout>

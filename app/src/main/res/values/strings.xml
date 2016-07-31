@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ทายนิสัย</string>
+
+    <string name="prepare_text">กำลังโหลดคำทำนาย</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">เปิดเมนูนำทาง</string>
+    <string name="navigation_drawer_close">ปิดเมนูนำทาง</string>
+
+    <string name="category_image_dec">รูปของประเภทคำทำนาย</string>
+    <string name="habit_image_dec">รูปของหัวข้อ</string>
+
+    <string name="action_settings">ตั่งค่า</string>
+
+    <string name="nav_image_dec">รูปเมนู</string>
+
+    <string name="share_title">แชร์คำทำนาย</string>
+
+    <string name="nav_title">ทายนิสัย</string>
+    <string name="nav_subtitle">เลือกสิ่งที่อยากรู้</string>
+
+    <string name="detail_title">ผลคำทำนาย</string>
+
+</resources>
