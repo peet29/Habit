@@ -2,9 +2,16 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'habit'
+            keyPassword '601529'
+            storeFile file('/home/peet29/Insync/AndroidStudioProjects/Keystore/habit')
+            storePassword '601529'
+        }
+    }
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
-
     defaultConfig {
         applicationId "me.hanthong.habit"
         minSdkVersion 19
