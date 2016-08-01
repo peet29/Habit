@@ -141,7 +141,7 @@ public class DetailFagment extends Fragment implements LoaderManager.LoaderCallb
     {
         ShareCompat.IntentBuilder
                 .from(getActivity()) // getActivity() or activity field if within Fragment
-                .setText(mTitle+"\n\n"+mData)
+                .setText(mTitle+"\n\n"+mData+getString(R.string.share_end_text))
                 .setType("text/plain") // most general text sharing MIME type
                 .setChooserTitle(getString(R.string.share_title))
                 .startChooser();

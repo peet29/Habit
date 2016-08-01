@@ -21,4 +21,6 @@
 
     <string name="detail_title">ผลคำทำนาย</string>
 
+    <string name="share_end_text">\n\n-----------\n แชร์จากแอพ ทายนิสัย \n โหลดได้ที่ http://play.google.com/store/apps/details?id=me.hanthong.habit</string>
+
 </resources>
